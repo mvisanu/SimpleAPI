@@ -8,14 +8,14 @@ namespace SimpleAPI.Test
     public class UnitTest1
     {
         
-        WeatherForecastController controller = new WeatherForecastController();
+        //WeatherForecastController controller = new WeatherForecastController();
 
-        [Fact]
-        public void GetReturnsMyName()
-        {
-            var returnValue = controller.Get(1);
-            Assert.Equal("Visanu Mongsaithong", returnValue.Value);
-        }
+        // [Fact]
+        // public void GetReturnsMyName()
+        // {
+        //     var returnValue = controller.Get(1);
+        //     Assert.Equal("Visanu Mongsaithong", returnValue.Value);
+        // }
 
         [Fact]
         public void Test1()
